@@ -10,7 +10,7 @@ import { useTranslation } from 'react-i18next';
 const Service = () => {
     const { t } = useTranslation()
   return (
-    <section id='services' className="container mx-auto px-4 pt-16">
+    <section id='services' className="container mx-auto px-4 pt-8">
         {/* <Title text={t('qualityservice')} /> */}
         <Title size={"md"} text={t('servicedescription')} />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-12">
