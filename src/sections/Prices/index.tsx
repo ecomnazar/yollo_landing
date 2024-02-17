@@ -13,8 +13,9 @@ const Prices = () => {
               className={clsx("p-4 sm:p-6 border-whiteGray border flex flex-col justify-between", {
                 ["rounded-tl-lg rounded-tr-lg sm:rounded-tr-none"]: i === 0,
                 ["rounded-none sm:rounded-tr-lg"]: i === 1,
-                ["rounded-none md:rounded-bl-lg"]: i === 2,
-                ["rounded-br-lg rounded-bl-lg md:rounded-bl-none"]: i === 3,
+                ["rounded-none"]: i === 2,
+                ["md:rounded-br-lg"]: i === 3,
+                ["rounded-br-lg rounded-bl-lg"]: i === 4,
               })}
             >
               <Title className="!text-[35px]" text={elem.city} />
