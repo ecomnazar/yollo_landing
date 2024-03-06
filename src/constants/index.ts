@@ -239,7 +239,7 @@ export const pricesList = [
     ],
   },
   {
-    city: "Ashgabat",
+    city: "Aşgabat",
     list: [
       {
         region: "Aşgabat",
